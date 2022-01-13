@@ -1,0 +1,15 @@
+/*
+Theme Name: Test-Theme
+*/
+
+html { height: 100%; }
+body { width: 100%; min-width: 280px; background: #fff; }
+.wrapper { margin: 0 auto; }
+#header { min-height: 100px; background-repeat: no-repeat; background-position: top center; background-size: cover; }
+#main { padding: 60px 0; margin: 0 auto; position: relative; }
+#content { width: 100%; float: none; }
+#sidebar { display: none; }
+#sidebar.block{ display: block;}
+#footer { width: 100%; padding: 20px 0; margin: 0; background: #fff; }
+.maxwidth { margin: 0 auto; position: relative; width: 90%; max-width: 1080px; }
+body.custom-background .wrapper { margin: 0 auto; background: #fff; max-width: 1160px; }
