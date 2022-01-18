@@ -1,7 +1,12 @@
 /*
-Theme Name: Test-Theme
-*/
+Theme Name: Theme-1
+Theme URI: https://mycustomtheme.com
+Author:  JavaArtists
+Author URI: http://mywebsite.com
+Version:1.0
+Description: This is Theme is developed in order fo it to help
 
+*/
 html { height: 100%; }
 body { width: 100%; min-width: 280px; background: #fff; }
 .wrapper { margin: 0 auto; }
