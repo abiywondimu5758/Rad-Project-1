@@ -42,7 +42,9 @@
       </div>
     </div>
   </div>
+
 </footer>
+<!-- Call the wordpress footer function -->
 <?php wp_footer(); ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145587001-1"></script>
