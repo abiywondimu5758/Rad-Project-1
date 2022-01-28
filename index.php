@@ -1,41 +1,26 @@
-<?php get_header(); ?>
-	<main id="content" class="content">
-	<?php do_action( 'basic_main_content_inner_begin' ); ?>
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Contact Form 06</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <?php if ( is_home() && 'customtitle' == get_theme_mod( 'home_h1_type', 'sitetitle' )  ) { ?>
-        <div class="blog-home-header">
-            <h1><?php echo esc_html( get_theme_mod( 'custom_home_h1', get_bloginfo('sitetitle') ) ); ?></h1>
-        </div>
-    <?php } ?>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
-<?php if (have_posts()) :
-	while (have_posts()) : the_post(); 
-
-		get_template_part( 'content' ); 
-
-	endwhile; ?>
-
-	<?php
-
-	the_posts_pagination( apply_filters( 'basic_posts_pagination_args', array(
-		'mid_size' => 2,
-		'prev_text' => __( '&laquo; Prev', 'basic'),
-		'next_text' => __( 'Next &raquo;', 'basic'),
-	) ) );
-
-
-else: ?>
-
-	<div class="post clearfix">		
-	    <h2><?php _e( 'Posts not found', 'basic' ); ?></h2>
-	    <?php get_search_form(); ?>
-	</div>
-		
-<?php endif; ?>
-
-	<?php do_action( 'basic_main_content_inner_end' ); ?>
-	</main> 
-	<!-- END #content -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Contact Form #06</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters mb-5">
